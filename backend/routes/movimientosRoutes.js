@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const { getMovimientos, addMovimientos, deleteMovimientos} = require('../controllers/movimientosController')
+const { getMovimientos, addMovimientos, deleteMovimientos} = require('../controllers/movimientosControllers')
 
 //obtener movimientos 
 router.get('/', getMovimientos)
