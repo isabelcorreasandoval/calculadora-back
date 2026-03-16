@@ -12,7 +12,7 @@ const gastosSchema = mongoose.Schema({
     },
 
 }, {
-    timestamp: true
+    timestamps: true
 })
 
 module.exports = mongoose.model('Gasto', gastosSchema)
